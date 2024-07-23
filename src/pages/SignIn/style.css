@@ -1,0 +1,45 @@
+/* src/pages/SignIn/style.css */
+.signin-page {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signin-page h2 {
+  margin-bottom: 20px;
+}
+
+.signin-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin-page input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signin-page button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signin-page button:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

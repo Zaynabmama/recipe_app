@@ -1,0 +1,15 @@
+
+.page {
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+    height: 100vh;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 10px;
+  }
+  
